@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(201, 14, 14, 0.144);
+    font-size: large;
+    padding: 0;
+}
+table tbody tr{
+    padding: 20px;
+    border: 100px;
+}
