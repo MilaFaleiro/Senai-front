@@ -3,49 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetinho</title>
-
-    <link rel="stylesheet" href="styles.css">
+    <title>Gerador De Tabuada</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Texto</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eos, optio sapiente impedit est, veritatis nihil porro culpa obcaecati vel voluptate, sunt amet itaque distinctio nobis iste sed autem voluptatibus?</p>
-
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Peso</th>
-                <th>Altura</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Camilla</td>
-                <td>19</td>
-                <td>67kg</td>
-                <td>1,73m</td>
-            </tr>
-            <tr>
-                <td>Bruno</td>
-                <td>30</td>
-                <td>75kg</td>
-                <td>1,80m</td>
-            </tr>
-            <tr>
-                <td>Carla</td>
-                <td>22</td>
-                <td>55kg</td>
-                <td>1,70m</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <br> <!-- Pula uma linha -->
-    <hr> <!-- Adiciona uma linha -->
-    <br>
-    <a href="http://www.google.com.br">Google</a>
-
+    <div class=" container">
+        <h1>Gerador De Tabuada</h1>
+        <label for="numeroinput">Digite um número:</label>
+        <input type="number" id="numeroinput" placeholder="Digite um número" />
+        <button id="gerarBotao">Gerar Tabuada</button>
+        <div id="resultadoTabuada"></div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
